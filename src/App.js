@@ -132,7 +132,7 @@ function App() {
         </div>
       </div>
       <div className="bg-basegrey0 font-montserrat text-white flex justify-center pt-16 pb-10">
-        © 2025 BITIT. Все права защищены.
+        © 2025 FITIT. Все права защищены.
       </div>
     </>
   );
