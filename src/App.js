@@ -31,7 +31,7 @@ function App() {
                   Программы
                 </a>
                 <a
-                  href="https://www.google.com/"
+                  href="https://t.me/fititpro"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-montserrat text-3xl font-medium text-basewhite hover:text-baseorange transition-colors duration-300"
@@ -131,8 +131,19 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="bg-basegrey0 font-montserrat text-white flex justify-center pt-16 pb-10">
+      <div className="bg-basegrey0 font-montserrat relative text-white flex justify-center items-center pt-16 pb-5">
         © 2025 FITIT. Все права защищены.
+        <a
+          href="https://freekassa.net"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="absolute left-0"
+        >
+          <img
+            src="https://cdn.freekassa.net/banners/big-dark-1.png"
+            title="Receving payments on the site for individuals, etc."
+          ></img>
+        </a>
       </div>
     </>
   );
