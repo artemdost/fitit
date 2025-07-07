@@ -4,8 +4,6 @@ import "@fontsource/montserrat/600.css";
 import "@fontsource/montserrat/400.css";
 import basketIcon from "./basket2.png";
 import runman3 from "./runman3.png";
-import runman2 from "./runman2.png";
-import strongman from "./strongman.png";
 import strongman2 from "./strongman2.png";
 import manshort from "./manshort.png";
 import yogawoman from "./yogawoman.png";
@@ -26,12 +24,20 @@ function App() {
                 </span>
               </div>
               <div className="NAVIGATION flex gap-10 items-center justify-between">
-                <span className="font-montserrat text-3xl font-medium text-basewhite">
+                <a
+                  href="#Programms"
+                  className="font-montserrat text-3xl font-medium text-basewhite hover:text-baseorange transition-colors duration-300"
+                >
                   Программы
-                </span>
-                <span className="font-montserrat text-3xl font-medium text-basewhite">
+                </a>
+                <a
+                  href="https://www.google.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-montserrat text-3xl font-medium text-basewhite hover:text-baseorange transition-colors duration-300"
+                >
                   Контакты
-                </span>
+                </a>
               </div>
               <div className="BASKET absolute right-0">
                 <img src={basketIcon} className="h-12"></img>
@@ -49,7 +55,7 @@ function App() {
                 Наши программы тренировок помогут добиться результатов быстро и
                 безопасно
               </span>
-              <button className="mt-24 font-montserrat text-3xl font-semibold bg-baseorange text-basegrey0 py-4  rounded-xl w-[230px] ">
+              <button className="mt-24 font-montserrat text-3xl font-semibold bg-baseorange text-basegrey0 py-4  rounded-xl w-[230px] hover:bg-white transition-colors duration-300">
                 Купить
               </button>
             </div>
@@ -59,7 +65,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="font-montserrat bg-basegrey0 pt-5">
+      <div id="Programms" className="font-montserrat bg-basegrey0 pt-5">
         <div className=" bg-basegrey0 flex flex-col  container mx-auto px-6 md:px-12 lg:px-24">
           <span className="mx-auto text-white text-6xl font-semibold">
             Программы
@@ -75,7 +81,7 @@ function App() {
                 выносливости и улучшения общего самочувствия. <br />
                 Подходит для всех уровней подготовки.
               </div>
-              <button className="mx-9 font-montserrat text-3xl font-semibold bg-baseorange text-basegrey0 py-4  rounded-xl w-[230px] ">
+              <button className="mx-9 font-montserrat text-3xl font-semibold bg-baseorange text-basegrey0 py-4  rounded-xl w-[230px]  hover:bg-white transition-colors duration-300">
                 Купить
               </button>
               <span className="absolute mt-96 right-0 text-[120px] text-baseorange font-semibold">
@@ -94,7 +100,7 @@ function App() {
                 Комплекс упражнений для укрепления мышц, формирования рельефного
                 тела и повышения физической силы. Достигаем целей шаг за шагом!
               </div>
-              <button className="mx-9 font-montserrat text-3xl font-semibold bg-baseorange text-basegrey0 py-4  rounded-xl w-[230px] ">
+              <button className="mx-9 font-montserrat text-3xl font-semibold bg-baseorange text-basegrey0 py-4  rounded-xl w-[230px]  hover:bg-white transition-colors duration-300">
                 Купить
               </button>
               <span className="absolute mt-96 right-0 text-[120px] text-baseorange font-semibold">
@@ -114,7 +120,7 @@ function App() {
                 улучшения осанки. Идеально для восстановления и гармонии тела и
                 разума.
               </div>
-              <button className="mb-9 mx-9 font-montserrat text-3xl font-semibold bg-baseorange text-basegrey0 py-4  rounded-xl w-[230px] ">
+              <button className="mb-9 mx-9 font-montserrat text-3xl font-semibold bg-baseorange text-basegrey0 py-4  rounded-xl w-[230px]  hover:bg-white transition-colors duration-300">
                 Купить
               </button>
               <span className="absolute mt-80 right-0 text-[120px] text-baseorange font-semibold">
