@@ -9,6 +9,7 @@ import manshort from "./manshort.png";
 import yogawoman from "./yogawoman.png";
 import noting from "./noting.png";
 import calling from "./calling.png";
+import runman4 from "./running4.png";
 
 function App() {
   return (
@@ -72,8 +73,8 @@ function App() {
           <span className="mx-auto text-white text-6xl font-semibold">
             Услуги
           </span>
-          <div className="1BLOCK mt-24 flex relative mx-24 px-12 bg-basegrey1 py-10 mb-10 rounded-[150px]">
-            <div className="mr-2 h-[350px] w-[450px]">
+          <div className="1BLOCK mt-24 flex relative mx-24 px-12 bg-basegrey1 pt-6 pb-5 mb-10 rounded-[150px]">
+            <div className="mr-2 h-[400px] w-[450px]">
               <img src={noting} className="h-full object-cover mx-auto"></img>
             </div>
 
@@ -95,12 +96,9 @@ function App() {
             </div>
             <></>
           </div>
-          <div className="1BLOCK mt-24 flex relative mx-24 px-12 bg-basegrey1 py-10 mb-10 rounded-[150px]">
-            <div className="mr-2 h-[350px] w-[450px]">
-              <img
-                src={calling}
-                className="h-full object-cover mx-auto mt-1"
-              ></img>
+          <div className="1BLOCK mt-24 flex relative mx-24 px-12 bg-basegrey1 pt-6 pb-5 mb-10 rounded-[150px]">
+            <div className="h-[400px] w-[450px]">
+              <img src={calling} className="h-full object-cover mx-auto"></img>
             </div>
             <div className="1TEXTBLOCK flex relative flex-col gap-6">
               <span className="abosulte left-0 mx-9 mt-8 text-5xl text-white font-semibold">
@@ -121,7 +119,7 @@ function App() {
             <></>
           </div>
           <div className="1BLOCK mt-24 flex relative mx-24 px-12 bg-basegrey1 py-10 mb-10 rounded-[150px]">
-            <img src={runman3} className="w-[300px]"></img>
+            <img src={runman4} className="w-[300px]"></img>
             <div className="1TEXTBLOCK flex relative flex-col gap-6">
               <span className="abosulte left-0 mx-9 mt-8 text-5xl text-white font-semibold">
                 <span className="text-baseorange">Кардио</span> программа
