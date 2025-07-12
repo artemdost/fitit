@@ -79,8 +79,8 @@ function App() {
             </div>
 
             <div className="1TEXTBLOCK flex relative flex-col gap-6">
-              <span className="abosulte left-0 mx-9 mt-8 text-4xl md:text-5xl text-white font-semibold">
-                <span className="text-baseorange ">Быстрая</span> консультация
+              <span className="md:abosulte md:left-0  mt-8 text-4xl md:text-5xl text-white font-semibold md:mx-9 text-center md:text-justify">
+                <span className="text-baseorange">Быстрая</span> консультация
               </span>
               <div className="text-[26px] m-3 mx-9 text-white">
                 Ответы на вопросы, помощь с выбором программы в персональном
@@ -101,7 +101,7 @@ function App() {
               <img src={calling} className="h-full object-cover mx-auto"></img>
             </div>
             <div className="1TEXTBLOCK flex relative flex-col gap-6">
-              <span className="abosulte left-0 mx-9 mt-8 text-4xl md:text-5xl text-white font-semibold">
+              <span className="md:abosulte md:left-0  mt-8 text-4xl md:text-5xl text-white font-semibold md:mx-9 text-center md:text-justify">
                 <span className="text-baseorange ">Видео</span> консультация
               </span>
               <div className="text-[26px] m-3 mx-9 text-white">
@@ -121,7 +121,7 @@ function App() {
           <div className="1BLOCK mt-24 flex flex-col md:flex-row relative w-full max-w-6xl mx-auto px-4 md:px-12 bg-basegrey1 py-10 mb-10 rounded-[50px] md:rounded-[150px]">
             <img src={runman4} className="w-[300px] mx-auto"></img>
             <div className="1TEXTBLOCK flex relative flex-col gap-6">
-              <span className="abosulte left-0 mx-9 mt-8 text-4xl md:text-5xl text-white font-semibold">
+              <span className="md:abosulte md:left-0  mt-8 text-4xl md:text-5xl text-white font-semibold md:mx-9 text-center md:text-justify">
                 <span className="text-baseorange">Кардио</span> программа
               </span>
               <div className="text-[26px] m-3 mx-9 text-white">
@@ -141,7 +141,7 @@ function App() {
           <div className="1BLOCK mt-24 flex flex-col md:flex-row relative w-full max-w-6xl mx-auto px-4 md:px-12 bg-basegrey1 py-10 mb-10 rounded-[50px] md:rounded-[150px]">
             <img src={yogawoman} className="mt-6 h-[300px] scale-100"></img>
             <div className="1TEXTBLOCK flex relative flex-col gap-6">
-              <span className="abosulte left-0 mx-9 mt-8 text-4xl md:text-5xl text-white font-semibold">
+              <span className="md:abosulte md:left-0  mt-8 text-4xl md:text-5xl text-white font-semibold md:mx-9 text-center md:text-justify">
                 <span className="text-baseorange">Йога</span> и растяжка
               </span>
               <div className="text-[26px] m-3 mx-9 text-white">
@@ -161,7 +161,7 @@ function App() {
           <div className="1BLOCK mt-24 flex flex-col md:flex-row relative w-full max-w-6xl mx-auto px-4 md:px-12 bg-basegrey1 py-10 mb-10 rounded-[50px] md:rounded-[150px]">
             <img src={strongman2} className="w-[300px] scale-110 mx-auto"></img>
             <div className="1TEXTBLOCK flex relative flex-col gap-6">
-              <span className="abosulte left-0 mx-9 mt-8 text-4xl md:text-5xl text-white font-semibold">
+              <span className="md:abosulte md:left-0  mt-8 text-4xl md:text-5xl text-white font-semibold md:mx-9 text-center md:text-justify">
                 <span className="text-baseorange">Силовая</span> программа
               </span>
               <div className="text-[26px] m-3 mx-9 text-white">
