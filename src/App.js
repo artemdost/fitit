@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <div className=" bg-basegrey0 font-montserrat">
-        <div className="HERO-SECTION pt-5 pb-28 bg-basegrey0 container mx-auto px-6 md:px-12 lg:px-24">
+        <div className="HERO-SECTION pt-5 pb-28 bg-basegrey0 container mx-auto p-6 md:px-12 lg:px-24">
           <header className="pt-4 ">
             <div className="relative flex  justify-center items-center">
               <div className="LOGO absolute left-0">
@@ -49,11 +49,11 @@ function App() {
           </header>
           <div className="relative flex mt-20 justify-between md:px-24">
             <div className="mt-12 md:mt-24 flex flex-col max-w-[600px]">
-              <span className="text-7xl font-montserrat font-bold text-basewhite">
+              <span className="text-6xl md:text-7xl font-montserrat font-bold text-basewhite">
                 ТВОЕ ТЕЛО — <br />
                 <span className="text-baseorange">ТВОЯ ЭНЕРГИЯ</span>
               </span>
-              <span className="mt-5 font-montserrat text-3xl font-thin text-white">
+              <span className="mt-5 font-montserrat text-[27px] md:text-3xl font-thin text-white">
                 Начни путь к лучшей версии себя. <br />
                 Наши программы тренировок помогут добиться результатов быстро и
                 безопасно
